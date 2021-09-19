@@ -289,3 +289,31 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.portfolio-item {
+  background: var(--primary-accent);
+  overflow: hidden;
+}
+
+.portfolio-img {
+  transition: 
+  transform 750ms cubic-bezier(.5, 0, .5, 1),
+  opacity 250ms linear;
+}
+
+.portfolio-item:focus {
+  position: relative;
+  z-index: 2;
+}
+
+.portfolio-img:hover,
+.portfolio-item:focus .portfolio-img {
+  transform: scale(1.2);
+  opacity: .5;
+}
