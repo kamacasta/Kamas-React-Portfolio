@@ -10,7 +10,7 @@ function Nav() {
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <span></span> <em>Kama's Portfolio</em>
+          <span></span> <em>Kamakanui'aha'ilono Castaneda</em>
         </a>
       </h2>
       <nav>
