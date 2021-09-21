@@ -4,7 +4,7 @@ import portfolioImage2 from '../../assets/cover/Mustache-Mustangs.png';
 import portfolioImage3 from '../../assets/cover/Password-Generator.png';
 import portfolioImage4 from '../../assets/cover/Weather-Dashboard.png';
 import portfolioImage5 from '../../assets/cover/Work-Day-Scheduler.png';
-// import portfolioImage6 from '../../assets/cover/';
+import portfolioImage6 from '../../assets/cover/regex.png';
 
 function Portfolio () {
     return(
@@ -33,10 +33,10 @@ function Portfolio () {
                 <img src={portfolioImage5} className="portfolio-img" alt="Five of 6 images of kamas portfolio images"/>
             </a>
 
-        {/* <a href="" className="portfolio-item">
+        <a href="https://gist.github.com/kamacasta" className="portfolio-item">
                 <img src={portfolioImage6} className="portfolio-img" alt="Six of 6 images of kamas portfolio images"/>
         </a>
-         */}
+        
         
         </div>
 

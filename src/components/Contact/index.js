@@ -43,7 +43,7 @@ function ContactForm() {
       {"\n"}
       {"\n"}
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
+        <div className="card">
           <label htmlFor="name"><em>Name:</em></label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>

@@ -1,3 +1,4 @@
+/* Universal styles */
 main {
   margin: 0 auto;
   max-width: 90%;
@@ -35,7 +36,9 @@ body {
   color: var(--light);
   font-family: 'Poiret One', cursive;
 }
+/* end of universal styles */
 
+/* header and paragraph style */
 h1,
 h2,
 h3,
@@ -76,6 +79,10 @@ p {
   font-size: 1.1rem;
   margin-top: 0;
 }
+/*  end of header and paragraph styles */
+
+/* links and buttons styles */
+strong { font-weight: bold;}
 
 a {
   color: var(--light);
@@ -115,7 +122,9 @@ button[disabled] {
   cursor: default;
   opacity: 0.8;
 }
+/* end of links and button styles  */
 
+/*  Image styles */
 img {
   max-width: 100%;
 }
@@ -123,9 +132,12 @@ img {
 span[role='img'] {
   cursor: default;
 }
+/*  end of image styles */
 
+/* Form styles */
 form {
   width: 40%;
+  box-shadow: var(--primary)25px 25px  ;
 }
 
 input {
@@ -141,7 +153,9 @@ input:focus {
   border: 1px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
+/*  Form styles ended */
 
+/* Nav and list styles */
 li {
   list-style: none;
 }
@@ -159,6 +173,11 @@ textarea {
   height: 120px;
   border: 3px solid #cccccc;
   padding: 5px;
+}
+/*  Nav and list styles ended */
+
+section {
+  padding: 1em 2em;
 }
 
 .container {
@@ -207,62 +226,36 @@ textarea {
   margin-bottom: var(--spacing-five);
 }
 
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
+.intro {
+  position: relative;
 }
 
-.px-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
+.section__title {
+  margin-bottom: .25em;
 }
 
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
+.section__title--intro strong {
+  display: block;
 }
 
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
+.section__subtitle {
+  margin: 0;
+  font-size: var(--fs-h3);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
+.section__subtitle--intro,
+.section__subtitle--about {
+  background: var(--primary);
+  padding: .25em 1em;
+  margin-bottom: 1em;
+}
+/*  */
+.grayscale {
+  filter: grayscale(100%);
 }
 
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
-
-.modalBackdrop {
-  background: rgba(0, 0, 0, 0.65);
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
-}
-
-.modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
+.purple {
+   filter: hue-rotate(-100deg);
 }
 
 button {

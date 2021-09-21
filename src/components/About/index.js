@@ -4,9 +4,14 @@ function About() {
   return (
     // Introduction
     <section className="my-5">
-      <h1 id="about"><em>Hi, I am</em><strong> Kamakanui Castaneda</strong></h1>
-      <p className="subtitle subtitleIntro">Front-End Developer</p>
-      <img src={coverImage} className="my-2" style={{ width: "35%" }} alt="cover"/>
+    <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Kamakanui Castaneda</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img src={coverImage}  className="my-2 grayscale" style={{ width: "25%"}} alt="cover"/>
+      <img src={coverImage}  className="my-2 purple" style={{ width: "25%" }} alt="cover"/>
+      <img src={coverImage}  className="my-2 grayscale" style={{ width: "25%" }} alt="cover"/>
+      <img src={coverImage}  className="my-2 purple" style={{ width: "25%" }} alt="cover"/>
       <div className="my-2">
         <p>
           <em>
