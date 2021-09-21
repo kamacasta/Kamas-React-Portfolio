@@ -12,11 +12,11 @@ function App() {
       <main>
         <About />
 
-        <ContactForm />
-
         <Portfolio />
 
         <Resume />
+
+        <ContactForm />
       </main>
     </div>
   );
