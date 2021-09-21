@@ -42,7 +42,7 @@ function ContactForm() {
       <h1 data-testid="h1tag" id="contact"><em>Contact me</em></h1>
       {"\n"}
       {"\n"}
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact-form" className="contactBox" onSubmit={handleSubmit}>
         <div className="card">
           <label htmlFor="name"><em>Name:</em></label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />

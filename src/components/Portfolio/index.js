@@ -37,7 +37,6 @@ function Portfolio () {
                 <img src={portfolioImage6} className="portfolio-img" alt="Six of 6 images of kamas portfolio images"/>
         </a>
         
-        
         </div>
 
         </section>
