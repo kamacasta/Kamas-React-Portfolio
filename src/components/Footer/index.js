@@ -1,6 +1,8 @@
 import React from "react"
 import GitHubIcon from "@material-ui/icons/GitHub"
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import  PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
+import { Phone } from "@material-ui/icons";
 
 
 function Footer() {
@@ -22,6 +24,9 @@ function Footer() {
             rel="noreferrer"
           >
             <LinkedInIcon />
+          </a>
+          <a href="tel:623-326-1158">
+              <PhoneIphoneIcon />
           </a>
         </div>
       </div>

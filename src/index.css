@@ -103,7 +103,6 @@ header a {
 }
 
 button {
-  font-size: 1rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
   border-radius: 0.5rem;
@@ -201,20 +200,11 @@ section {
   justify-content: flex-end;
 }
 
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
 
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
 
 .my-2 {
   margin-top: var(--spacing-two);
@@ -310,3 +300,10 @@ a {
   transform: scale(1.2);
   opacity: .75;
 }
+.footer {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  padding: 4em 2em;
+}
+

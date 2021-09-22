@@ -1,9 +1,11 @@
 import React from 'react';
+import { ReactDOM } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
-import Resume from './components/Resume'
+import Resume from './components/Resume';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
 
         <ContactForm />
       </main>
+      <Footer />
     </div>
   );
 }
