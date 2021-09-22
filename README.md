@@ -34,12 +34,12 @@ This is under the MIT license.
 
 ## Questions
 
-If there is any questions please take a look at my https://github.com/kamacasta/README-Generator or feel free to contact me through kamacasta983@gmail.com
+If there is any questions please take a look at my repo https://github.com/kamacasta/Kamas-React-Portfolio or feel free to contact me through kamacasta983@gmail.com
 
 
 ## Credits
 
-Credit to Marco Avalia fellow bootcamp attendee for helping me with some of my logic! https://github.com/mavila6
+
 
 ## Author
 
