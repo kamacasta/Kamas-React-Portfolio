@@ -9,6 +9,7 @@ This is my portfolio I created using React
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [License](#license)
 - [Questions](#questions)
 - [Credits](#credits)
 - [Author](#author)
@@ -25,7 +26,7 @@ You will need Node.js before doing so.
 
 ## Usage 
 
-
+![React-App](https://user-images.githubusercontent.com/81506090/134296991-2a62ec28-1cd1-4bf8-8328-0c0c62f1d130.png)
 
 ## License 
 
@@ -39,7 +40,7 @@ If there is any questions please take a look at my repo https://github.com/kamac
 
 ## Credits
 
-
+Colaberated with Marco Avila https://github.com/mavila6
 
 ## Author
 
