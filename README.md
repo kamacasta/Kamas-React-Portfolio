@@ -46,7 +46,3 @@ Colaberated with Marco Avila https://github.com/mavila6
 
 
 Created by Kamakanui'aha'ilono J Castaneda
-
-
----
-permalink: /index.html

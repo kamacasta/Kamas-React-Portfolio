@@ -8,6 +8,7 @@ import portfolioImage6 from '../../assets/cover/regex.png';
 
 function Portfolio () {
     return(
+        // Portfolio showcase begins
         <section className="my-5">
             <h1 id="portfolio"><em>Portfolio</em></h1>
             <p> A selection of my work </p>
@@ -41,6 +42,7 @@ function Portfolio () {
         </div>
 
         </section>
+        // Portfolio showcase ends
     );
 };
 

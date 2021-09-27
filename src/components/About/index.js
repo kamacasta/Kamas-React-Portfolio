@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import coverImage from '../../assets/cover/Kama.jpg';
+import { Spring } from 'react-spring'
+
 function About() {
   return (
     // Introduction
@@ -24,6 +26,9 @@ function About() {
           Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
           </em>
           </p>
+          {/* <button onClick={this.props.toggle}>
+
+          </button> */}
       </div>
     </section>
   );

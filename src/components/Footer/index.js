@@ -2,13 +2,14 @@ import React from "react"
 import GitHubIcon from "@material-ui/icons/GitHub"
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import  PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
-import { Phone } from "@material-ui/icons";
+
 
 
 function Footer() {
     return (
-      <div className="footer">
+      <footer className="footer">
         <div className="contactInfo">
+            {/* GitHub icon imported above */}
           <a
             className="contactLogo"
             href="https://github.com/kamacasta"
@@ -17,6 +18,7 @@ function Footer() {
           >
             <GitHubIcon />
           </a>
+          {/* LinkedIn icon imported above */}
           <a
             className="contactLogo"
             href="https://www.linkedin.com/in/kamajcasta/"
@@ -25,11 +27,12 @@ function Footer() {
           >
             <LinkedInIcon />
           </a>
+          {/* Iphone icone imported above */}
           <a href="tel:623-326-1158">
               <PhoneIphoneIcon />
           </a>
         </div>
-      </div>
+      </footer>
     );
 }
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactDOM } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import ContactForm from './components/Contact';
